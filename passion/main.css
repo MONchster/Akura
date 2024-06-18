@@ -1,0 +1,85 @@
+body{
+    background-color: darkblue;
+    color: blue;
+    font-family: "Chakra Petch", sans-serif;
+    text-align: center;
+    margin-top: 150px;
+}
+p{
+    font-size: 90px;
+    font-weight: lighter;
+    padding: 30px;
+    margin: 5px 5px;
+}
+p:hover{
+    font-size: 100px;
+    color: chartreuse
+}
+h1{
+    font-size: 100px   
+}
+
+.project:hover{
+    color: chartreuse;
+   letter-spacing: 50px;
+   transition-duration: 0.4s
+}
+.dream:hover {
+    color: chartreuse;
+    letter-spacing: 50px;
+    transition-duration: 0.4s
+}
+.peek:hover {
+    color: chartreuse;
+    letter-spacing: 50px ;
+    transition-duration: 0.4s
+
+}
+button {
+    border:5px dashed;
+    color: blue;
+    background-color:chartreuse;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration:none ;
+    display; inline-block; 
+    font-size: 20px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button:hover {
+     background-color: blue;
+     color: chartreuse;
+}
+img{
+    margin: 10px auto;
+    width: 1000px;
+   
+}
+details{
+    background-color: chartreuse;
+    text-align: left;
+    padding-left: 20px;
+    cursor: pointer;
+
+}
+
+summary{
+    font-size: 50px;
+    color: blue
+    
+
+}
+.dlog{
+    font-size: 25px;
+    font-weight: lighter;
+}
+.dlog:hover{
+    font-size: 25px;
+    color: blue
+}
+hr{
+    border:rgb(209, 3, 250) 5px dashed;
+
+}
