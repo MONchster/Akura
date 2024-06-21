@@ -22,17 +22,17 @@ h1{
 .project:hover{
     color: chartreuse;
    letter-spacing: 50px;
-   transition-duration: 0.4s
+   transition-duration: 0.4s;
 }
 .dream:hover {
     color: chartreuse;
     letter-spacing: 50px;
-    transition-duration: 0.4s
+    transition-duration: 0.4s;
 }
 .peek:hover {
     color: chartreuse;
     letter-spacing: 50px ;
-    transition-duration: 0.4s
+    transition-duration: 0.4s;
 
 }
 button {

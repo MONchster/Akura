@@ -1,3 +1,52 @@
-body{
-    background-color:hotpink;
+*{
+    box-sizing:border-box;
 }
+img{
+    max-width: 100%;
+}
+body{
+    background-color:honeydew;
+}
+h1{
+    font-family: Helvetica, sans-serif;
+    font-weight: bolder;
+    color: black;
+    font-size:150px;
+    position: absolute;
+    top:-60%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+h1:hover{
+    font-style:italic;
+    letter-spacing: 10px;
+    transition-duration: 0.4s;
+
+}
+.parent{
+    background-color:#00adee;
+    width:750px;
+    height:300px;
+    border:8px solid;
+    border-radius:200px;
+    padding: 20px;
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    
+}
+.sun{
+    position:absolute;
+    bottom:-60%;
+    left:10%;
+    /* transform: translate(-50%,-50%); */
+    animation: sun 5s infinite;
+}
+    
+ @keyframes sun {
+    100% {transform: rotate(360deg);}
+  } 
+  
+
+
