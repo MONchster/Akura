@@ -1,0 +1,66 @@
+*{
+    box-sizing:border-box;
+}
+img{
+    max-width: 100%;
+}
+body{
+    background-color:#01204E;
+    transition: background .5s;
+}
+.light{
+    background:#028391;
+}
+
+.sidebar {
+    padding: 20px;
+    background-color:#FEAE6F;
+    color: white;
+    font-size: 20px;
+    position:fixed;
+    right:-300px;
+    top:0;
+    width:300px;
+    height:100vh;
+    text-align:center;
+    transition: right .5s;
+   
+  }
+  .active{
+    right:0px;
+  
+  }
+  .spinner{
+    width:100px;
+    height:100px;
+    position:fixed;
+    bottom:30px;
+    left:30px;
+    background:#FEAE6F;
+  
+    border-radius: 100%;
+    transition: transform .5s, outline .5s;
+    outline: 20px dotted #01204E;
+    outline-offset: -10px;
+    
+  }
+  .inner{
+    width: 20px;
+    height:20px;
+    background:#01204E;
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    transition: background .5s;
+
+  }
+  .spin{
+    transform:rotate(180deg) ;
+    outline: 20px dotted #028391;
+
+  }
+  .spinner.spin .inner{
+    background:#028391;
+  }
+  

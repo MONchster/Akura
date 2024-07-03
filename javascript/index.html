@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>-</title>
+        <link rel="stylesheet" href="main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+    <body>
+<button onclick="change()">Click me...</button>
+
+
+<div id="sidebar" class="sidebar ">
+  Hello World!
+</div>
+<div id="spinner" class="spinner">
+    <div class="inner"></div> 
+</div>
+<script>
+    
+    function change() {
+    
+      var sidebar = document.getElementById("sidebar");
+      var spinner = document.getElementById("spinner");
+      sidebar.classList.toggle("active");
+      spinner.classList.toggle("spin");
+      document.body.classList.toggle("light");
+
+     
+    }
+    </script>
+    </body>
+</html>

@@ -8,6 +8,14 @@ body{
     cursor: url(images/cursor.png), auto;
     background-color:honeydew;
     font-family: Helvetica, sans-serif;
+    margin:0;
+}
+.top{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    margin-top: 10px;
+    margin-right: 15px;
 }
 
 p{
@@ -15,6 +23,7 @@ p{
     font-style: italic;
     font-weight:lighter;
     position: sticky;
+    
 }
 hr{
     border: 5px solid;
@@ -22,45 +31,56 @@ hr{
 }
 .akura{
     font-family: Helvetica, sans-serif;
-    font-weight: bolder;
-    color: black;
-    font-size:150px;
-    position: absolute;
-    top:-60%;
-    left:50%;
-    transform: translate(-50%,-50%);
-}
-.akura:hover{
+    font-weight: bold;
     font-style:italic;
-    letter-spacing: 10px;
-    transition-duration: 0.4s;
+
+    color: black;
+    font-size:25px;
+}
+
+.head{
+    background-color: orangered;
+    width:100%;
+    height:26px;
+    display:flex;
+    justify-content: space-around;
+
 
 }
-.parent{
+.container{
+    height:50vh;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+.sky{
     background-color:#00adee;
     width:750px;
     height:300px;
     border:10px solid;
     border-radius:200px;
     padding: 20px;
-    position: fixed;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-  
-    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+   
+     
 }
 .sun{
-    position:absolute;
+    
     bottom:-60%;
     left:10%;
-    /* transform: translate(-50%,-50%); */
     animation: sun 5s infinite;
 }
     
  @keyframes sun {
     100% {transform: rotate(360deg);}
   } 
+
+
+
 .button{
     background-color: #00adee; 
     border: 10px solid;
@@ -83,6 +103,8 @@ hr{
     background-color: orangered;
    height:100px;
    padding:15px;
+   display:flex;
+
   
 }
 .d1{

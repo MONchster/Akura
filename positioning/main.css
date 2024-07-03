@@ -111,3 +111,24 @@ img{
     top: 40px;
 
 }
+.mouth{
+    position:absolute;
+    background: black;
+    width:150px;
+    height: 30px;
+    left:50%;
+    transform: translateX(-50%);
+    bottom:50px;
+
+
+}
+.hat{
+    background: purple;
+    width:200px;
+    height:100px;
+    position:absolute;
+    top:-67px;
+
+
+
+}

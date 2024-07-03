@@ -1,0 +1,136 @@
+*{
+    box-sizing:border-box;
+}
+img{
+    max-width: 100%;
+}
+body{
+    background-color: white;
+    margin:0;
+}
+.container{
+    background: darkgreen;
+    /* border: 15px solid; */
+    display:flex;
+    padding:1px;
+    flex-direction: column;
+    gap:1px;
+    height:55vh;
+}
+.cuticle{
+    background: green;
+    border: 1px solid;
+    border-radius:20%;
+    width:100%;
+    height:30px;
+
+}
+.epidermis{
+    /* border: 1px solid; */
+    display:flex;
+    flex-direction:row;
+    
+}
+.epicells{
+    border: 1px solid;
+    width:100%;
+    height:30px;
+    border-radius:20%;
+    background: rgb(162, 208, 132);
+}
+
+
+.palisade{
+    /* border: 1px solid; */
+    display:flex;
+    flex-direction:row;
+}
+.palicells{
+    background: rgb(178, 238, 178);
+    border: 1px solid;
+    border-radius:20%;
+    width:100%;
+    height: 100px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.vacuole{
+    width:50px;
+    height:80px;
+    border: 5px dotted green;
+    background: lightskyblue;
+    border-radius: 100%;
+}
+
+
+.spongylayer{
+    height:80px;
+    width:100%;
+    /* border: 1px solid; */
+    display:flex;
+    /* flex-shrink: initial; */
+    justify-content:space-between;
+   
+} 
+.s-cells{
+   background-color: rgb(178, 238, 178);
+    width:50px;
+    height:80px;
+    border: 5px dotted green;
+    border-radius: 30%;
+}
+.small{
+    width:30px;
+    height:60px;
+}
+.big{
+    width:80px;
+    height:100px;
+}
+.vein{
+    width:150px;
+    height:150px;
+    border-radius: 100%;
+    background:wheat;
+    border: 15px dotted rgb(205, 115, 115);
+}
+.gp{
+    width:100px;
+    background-color:darkgreen ;
+    border: none;
+
+}
+.Information{
+   
+    width: 100%;
+    height: 45vh;
+    background: darkgreen;
+    border:1px solid;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+
+}
+.box{
+    Width:50%;
+    height:6.42vh;
+    background-color:green;
+    border: 2px solid darkgreen;
+    color: darkgreen;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding:20px;
+    border-radius: 50%;
+}
+.box:hover{
+    background:rgb(191, 243, 5);
+    
+    border: rgb(178, 238, 178);
+}
+
+
