@@ -1,0 +1,165 @@
+*{
+    box-sizing:border-box;
+}
+img{
+    max-width: 100%;
+}
+body{
+    background-color:#000000;
+   
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.sidebar {
+    padding: 20px;
+    background-color:darkblue;
+    color: white;
+    font-size: 20px;
+    position:fixed;
+    right:-300px;
+    top:0;
+    width:300px;
+    height:100vh;
+    text-align:center;
+    transition: right .5s;
+    z-index: 999;
+    animation: bg-color 10s 2s infinite alternate ease-in-out;
+
+  }
+  .active{
+    right:0px;
+
+  }
+  @keyframes bg-color{
+    0%{
+        background-color:darkblue;
+    }
+    50%{
+      background-color: black;
+    }
+    100%{
+        background-color:chartreuse;
+    }
+  }
+  .zone{
+    position:fixed;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    pointer-events:none;
+  }
+  .bg-zn{
+   
+    z-index:-1;
+  }
+  .bd-zn{
+    z-index: 1;
+  }
+  .fg-zn{
+    z-index:2;
+  }
+  button {
+    border:5px dashed;
+    color: blue;
+    background-color:chartreuse;
+    padding: 10px 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-decoration:none ;
+    display: inline-block; 
+    font-size: 20px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+button:hover {
+     background-color: blue;
+     color: chartreuse;
+}
+  .spinner{
+    width:100px;
+    height:100px;
+    position:fixed;
+    bottom:30px;
+    right:30px;
+    background:darkblue;
+  
+    border-radius: 100%;
+    transition: transform .5s, outline .5s;
+    outline: 20px dotted #000000;
+    outline-offset: -10px;
+    cursor: pointer;
+    z-index: 9999;
+    
+  }
+  .inner{
+    width: 20px;
+    height:20px;
+    
+    background: #000000;
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+   
+
+  }
+  .spin{
+    transform:rotate(180deg) ;
+    outline: 20px dotted chartreuse;
+
+  }
+  .spinner.spin .inner{
+    background:chartreuse;
+  }
+  .random {
+    position:fixed;
+    pointer-events: all;
+  }
+  img{
+    width:50%;
+    
+  }
+  
+  .bg{
+    
+    display:inline-block;
+    width:300px;
+    
+  }
+  .bg img{
+    width:100%;
+    height:100%;
+  }
+
+  .bd{
+    
+    display:inline-block;
+    width:300px;
+    
+  }
+  .bd img{
+    width:100%;
+    height:100%;
+  }
+  .fg{
+    
+    display:inline-block;
+    width:300px;
+    
+  }
+  .fg img{
+    width:100%;
+    height:100%;
+  }
+  .misc{
+    
+    display:inline-block;
+    width:50px;
+    
+  }
+  .misc img{
+    width:25%;
+    height:25%;
+  }

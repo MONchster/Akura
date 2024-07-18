@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Final</title>
+        <!-- <link rel="stylesheet" href="jquery-ui.css"> -->
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css" />
+        <link rel="stylesheet" href="main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+
+    </head>
+    <body>
+        <div id="spinner" class="spinner" onclick="change()">
+            <div class="inner"></div> 
+        </div>
+
+    <div id="sidebar" class="sidebar ">
+       <p>T00L B0X</p> 
+        <div class=" container">
+            <button class="bg-btn">Backgr0und</button>
+            <button class="fg-btn">F0reground</button>
+            <button class="bd-btn">B0dy</button>
+            <!-- <button >Eyes</button>
+            <button>M0uth</button> -->
+           
+            <button class="misc-btn">Misc Ic0n</button>
+
+            
+        </div>
+    </div>
+
+    <div class="zone bg-zn"></div>
+    <div class="zone bd-zn"></div>
+    <div class="zone fg-zn"></div>
+    <div class="zone misc-zn"></div>
+
+
+<script>
+    
+    function change() {
+    
+      var sidebar = document.getElementById("sidebar");
+      var spinner = document.getElementById("spinner");
+      sidebar.classList.toggle("active");
+      spinner.classList.toggle("spin");
+      document.body.classList.toggle("dark");
+
+     
+    }
+    </script>
+
+
+
+
+
+        
+        <script src="jquery-3.7.1.min.js"></script>
+        <script src="jquery-ui.min.js"></script>
+        <script src="scripts.js"></script>
+    </body>
+</html>
