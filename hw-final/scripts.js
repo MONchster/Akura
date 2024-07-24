@@ -190,7 +190,8 @@ $(".fg-btn").on("click",
   var fgParts =[
       '<img class="random fg" src="fg1.png"></img>',
       '<img class="random fg" src="fg2.png"></img>',
-      '<img class="random fg" src="fg3.png"></img>'
+      '<img class="random fg" src="fg3.png"></img>',
+      '<img class="random fg" src="fg4.png"></img>'
      
   ];
   var fgNum = 0;
