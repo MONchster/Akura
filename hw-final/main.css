@@ -56,9 +56,16 @@ body{
   .bd-zn{
     z-index: 1;
   }
-  .fg-zn{
-    z-index:2;
+  .es-mthzn{
+    z-index: 2;
   }
+  .misc-zn{
+    z-index: 3;
+  }
+  .fg-zn{
+    z-index:4;
+  }
+
   button {
     border:5px dashed;
     color: blue;
@@ -143,6 +150,30 @@ button:hover {
     width:100%;
     height:100%;
   }
+  .human{
+    width:500px;
+    height:500px;
+  }
+  .es{
+    
+    display:inline-block;
+    width:100px;
+    
+  }
+  .es img{
+    width:25%;
+    height:25%;
+  }
+  .mth{
+    
+    display:inline-block;
+    width:100px;
+    
+  }
+  .mth img{
+    width:25%;
+    height:25%;
+  }
   .fg{
     
     display:inline-block;
@@ -162,4 +193,11 @@ button:hover {
   .misc img{
     width:25%;
     height:25%;
+  }
+  .rice{
+    rotate: 90deg;
+  }
+  .gun{
+    width:29%;
+    height:29%;
   }

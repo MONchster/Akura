@@ -9,6 +9,8 @@ body{
     background-color:honeydew;
     font-family: Helvetica, sans-serif;
     margin:0;
+    width:100%;
+    overflow-x:hidden;
 }
 .top{
     display:flex;
@@ -73,6 +75,7 @@ hr{
     bottom:-60%;
     left:10%;
     animation: sun 5s infinite;
+    pointer-events: none;
 }
     
  @keyframes sun {
@@ -101,9 +104,11 @@ hr{
 }
 .links{
     background-color: orangered;
-   height:100px;
+   
    padding:15px;
    display:flex;
+   flex-wrap: wrap;
+   justify-content: center;
 
   
 }
