@@ -60,7 +60,8 @@ $(".bd-btn").on("click",
         '<img class="random bd" src="bd5.png"></img>',
         '<img class="random bd human" src="bd6.png"></img>',
         '<img class="random bd" src="bd7.png"></img>',
-        '<img class="random bd" src="bd8.png"></img>'
+        '<img class="random bd" src="bd8.png"></img>',
+        '<img class="random bd" src="bd9.png"></img>'
 
        
     ];
@@ -196,7 +197,8 @@ $(".fg-btn").on("click",
       '<img class="random fg" src="fg2.png"></img>',
       '<img class="random fg" src="fg3.png"></img>',
       '<img class="random fg" src="fg4.png"></img>',
-      '<img class="random fg" src="fg5.png"></img>'
+      '<img class="random fg" src="fg5.png"></img>',
+      '<img class="random fg" src="fg6.png"></img>'
      
   ];
   var fgNum = 0;
