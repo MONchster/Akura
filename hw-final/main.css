@@ -198,6 +198,14 @@ button:hover {
     rotate: 90deg;
   }
   .gun{
-    width:29%;
-    height:29%;
+    width:300px;
+    height:250px;
+  }
+  .chicken{
+    width:250px;
+    height:250px;
+  }
+  .tromb{
+    width:250px;
+    height:250px;
   }

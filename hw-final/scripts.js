@@ -8,7 +8,8 @@ var bgParts =[
     '<div class="random bg"> <img src="bg1.jpg"></div>',
     '<div class="random bg"> <img src="bg2.jpg"></div>',
     '<div class="random bg"> <img src="bg3.jpg"></div>',
-    '<div class="random bg"> <img src="bg4.jpg"></div>'
+    '<div class="random bg"> <img src="bg4.jpg"></div>',
+    '<div class="random bg"> <img src="bg5.jpg"></div>'
    
 ];
 var bgNum = 0;
@@ -57,7 +58,9 @@ $(".bd-btn").on("click",
         '<img class="random bd" src="bd3.png"></img>',
         '<img class="random bd" src="bd4.png"></img>',
         '<img class="random bd" src="bd5.png"></img>',
-        '<img class="random bd human" src="bd6.png"></img>'
+        '<img class="random bd human" src="bd6.png"></img>',
+        '<img class="random bd" src="bd7.png"></img>',
+        '<img class="random bd" src="bd8.png"></img>'
 
        
     ];
@@ -101,7 +104,8 @@ $(".bd-btn").on("click",
         var esParts =[
             '<img class="random es" src="eyes1.png"></img>',
             '<img class="random es" src="eyes2.png"></img>',
-            '<img class="random es" src="eyes3.png"></img>'
+            '<img class="random es" src="eyes3.png"></img>',
+            '<img class="random es" src="eyes4.png"></img>'
     
            
         ];
@@ -191,7 +195,8 @@ $(".fg-btn").on("click",
       '<img class="random fg" src="fg1.png"></img>',
       '<img class="random fg" src="fg2.png"></img>',
       '<img class="random fg" src="fg3.png"></img>',
-      '<img class="random fg" src="fg4.png"></img>'
+      '<img class="random fg" src="fg4.png"></img>',
+      '<img class="random fg" src="fg5.png"></img>'
      
   ];
   var fgNum = 0;
@@ -233,10 +238,11 @@ $(".misc-btn").on("click",
   } );
   
   var miscParts =[
-      '<img class="random misc" src="misc1.png"></img>',
+      '<img class="random misc" src="misc1.png">',
       '<img class="random misc rice" src="misc2.png">',
       '<img class="random misc gun" src="misc3.png">',
-      '<img class="random misc gun" src="misc4.png">'
+      '<img class="random misc chicken" src="misc4.png">',
+      '<img class="random misc tromb" src="misc5.png">'
       
      
   ];
